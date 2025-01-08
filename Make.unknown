@@ -1,0 +1,6 @@
+cambio: monedas.cpp
+	g++ monedas.cpp -o cambio
+
+testCambio: cambio
+	./cambio
+
